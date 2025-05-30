@@ -9,6 +9,7 @@ public class Whileloop {
         }
         //print odd numbers
         Scanner input = new Scanner(System.in);
+        System.out.println("Enter the value of a: ");
         int a = input.nextInt();
         int b = 1;
         while(b < a){

@@ -13,6 +13,10 @@ public class Dowhile {
         do {
             System.out.print(b+ " ");
             b++;
-        } while(b<5);
+        } while(b < 5);
+        int c = 1;
+        do{
+            System.out.println(c);
+        }while(c != 1);
         }
     }

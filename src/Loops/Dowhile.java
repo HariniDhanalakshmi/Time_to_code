@@ -14,9 +14,10 @@ public class Dowhile {
             System.out.print(b+ " ");
             b++;
         } while(b < 5);
-        int c = 1;
+        int c = 10;
         do{
             System.out.println(c);
+            c--;
         }while(c != 1);
         }
     }

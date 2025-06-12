@@ -4,7 +4,7 @@ public class Example {
         int aa = greeter();
         System.out.println(aa);
     }
-    static Integer greeter() {
+    static int greeter() {
         int numb = 54;
         return numb;
     }

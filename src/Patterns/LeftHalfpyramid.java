@@ -15,7 +15,7 @@ public class LeftHalfpyramid {
          *****
          */
         /*
-        i = 1 n=5 space = 4 star=1 space = n-1
+        i = 1 n=5 space = 4 star=1 space = n-i
         i = 2 n=5 space = 3 star=2 star = i
         i = 3 n=5 space = 2 star=3
         i = 4 n=5 space = 1 star=4

@@ -10,6 +10,7 @@ Enter the limit: 3
 Enter the value of x: 1
 Sum of series: 2366.152380952381
  */
+
 public class Series4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

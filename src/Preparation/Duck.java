@@ -15,7 +15,7 @@ public class Duck {
         System.out.print("Enter the number: ");
         int num = sc.nextInt();
         int temp = num;
-        if (num % 100 == num) {
+        if (temp % 10 == num) {
             System.out.println(num + "Leading zero is NOT Duck Number");
             return;
         }

@@ -9,16 +9,19 @@ public class PrimeCheck {
         int count = 0;
         System.out.print("Enter the n: ");
         int n = sc.nextInt();
-        for (int i = 1; i <= n; i++) {
-            if(n % i == 0){
-                count++;
+        if(n>1) {
+            for (int i = 1; i <= n; i++) {
+                if (n % i == 0) {
+                    count++;
+                }
+            }
+            if (count == 2) {
+                System.out.print("Prime number");
+            } else {
+                System.out.print("Not prime number");
             }
         }
-        if(count == 2){
-            System.out.print("Prime number");
-        }
-        else{
-            System.out.print("Not prime number");
-        }
+        else
+            System.out.println("Not a prime");
     }
 }

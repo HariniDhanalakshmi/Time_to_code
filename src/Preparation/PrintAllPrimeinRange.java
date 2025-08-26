@@ -1,7 +1,5 @@
 package Preparation;
-
 import java.util.Scanner;
-
 //Print all the prime numbers within given range
 public class PrintAllPrimeinRange {
     public static void main(String[] args) {

@@ -11,6 +11,7 @@ EARCLAY
 EAT
 EATWAY
  */
+
 public class Piglatin {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -31,7 +32,6 @@ public class Piglatin {
                     System.out.println(pl);
                     break;
             }
-
         }
 
     }
